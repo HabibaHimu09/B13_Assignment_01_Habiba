@@ -51,32 +51,97 @@ header .nav-container{
 
 #banner .banner-content{
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
-.banner-content h6{
+
+.special-part{
+    display: flex;
+    flex-direction: row;
     background-color: white;
-    color: #30B868;
     border-radius: 500px;
-    font-size: 16px;
-    font-weight: 500;
-    width: 240px;
-    height: 35px;
-    margin: 60px auto;
+    width: 230px;
+    height: 15px;
+    max-height: 35px;
+    margin: 0;
+    margin-top:60px;
     align-items: center;
     text-align: center;
-    padding-top: 20px;}
+   padding: 10px;   
+}
+
+.special-part .circles{
+    height: 20px;
+    width: 20px;
+    position:relative;
+    padding: 4px;
+}
+
+.circles div {
+    position: absolute;
+    
+}
+
+.special-part .circles .circle1{
+    
+    height: 6px;
+    width: 6px;
+    background-color: #30B868;
+    border-radius: 50%;
+    opacity: 1;
+    top: 9px;
+    left: 9px;
+
+}
+
+.special-part .circles .circle2{
+   
+       height: 12px;
+    width: 12px;
+    background-color: #30B868;
+    border-radius: 50%;
+    opacity: .4; 
+    top: 6.1px;
+    left: 6.1px;
+}
+
+.special-part .circles .circle3{
+  
+    height: 16px;
+    width: 16px;
+    background-color: #30B868;
+    border-radius: 50%;
+    opacity: .2;
+
+}
+
+
+.early-access-text{ 
+    position: relative;
+    color: #30B868;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    white-space: nowrap;
+    }
 
 .banner-content h1{
     font-size: 72px;
     font-weight: 600;
     color: white;
-    padding: 2px;}
+    padding: 2px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding-top: 0;}
 
 .line{
     color: #30B868;
 }
  
-.banner-content p{
+.structured-detailed-text{
     color: white;
     font-style: normal;
     font-size: 16px;
@@ -84,6 +149,7 @@ header .nav-container{
     margin: 0 auto;
     width: 50%;
     line-height: 24px;
+    line-height: 2;
 }
 
 .btn-style{
@@ -155,6 +221,8 @@ h2{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    color:#627382;
+    padding-bottom: 44px;
 }
 
 .cards{
