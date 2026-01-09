@@ -1,0 +1,39 @@
+.container{
+    max-width: 1900px;
+    margin: auto;}
+
+.btn{
+    background-color: #30B868;
+    width: 164px;
+    height: 44px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+}
+
+
+/* header section */
+
+header .nav-container{
+    display: flex;
+    justify-content:space-between;
+    margin: 24px 120px;
+    align-items: center;}
+
+.nav-container .logo{
+    height: 60px;
+    width: 140px;}
+
+.nav-container .features{
+    display: flex;
+    gap: 32px;
+    list-style:none;}
+
+.nav-container .features a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 500;}
+
