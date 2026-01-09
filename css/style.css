@@ -41,7 +41,7 @@ header .nav-container{
 /* section banner */
 
 #banner{
-    background-image:url(./assets/hero-bg.png);
+    background-image:url('../images/hero-bg.png');
     image-orientation:inherit;
     height: 500px;
     padding: 50px;}
