@@ -1,5 +1,5 @@
 body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Inter';
 }
 .container{
     max-width: 1900px;
@@ -116,22 +116,22 @@ header .nav-container{
     width: 20px;}
 
 .buttons{
-    align-items: center;
+   
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center; 
     gap: 10px;}
 
 
-    h2{
-            font-style: Bold;
+h2{
+    font-style: Bold;
     font-size: 48px;
     font-weight: 600;
     letter-spacing: 8%;
     }
 
 /* Section-1 */
-.structure
 
 .structure-container{
     background-color:#fbfbfb;
@@ -146,8 +146,8 @@ header .nav-container{
 
     text-align: center;
     text-transform: capitalize;
-margin-top: 30px;
-margin-bottom: 0px;
+    margin-top: 30px;
+    margin-bottom: 0px;
 }
 
 .section-title p{
@@ -192,7 +192,7 @@ margin-bottom: 0px;
 .cards .card img{
     background-color: rgba(249, 85, 85, 1);
     border-radius: 50%;
-    border-color: rgba(249, 85, 85, 1) ;
+    
     padding: 20px;
 
 }
@@ -256,7 +256,43 @@ margin-bottom: 0px;
 
 
 .apps-text-container  .tick li {
-  line-height: 2;
-  font-size: 16px;
+    line-height: 2;
+    font-size: 16px;
 }
 
+/* 3rd section */
+.think-more-container{
+    
+   
+    padding: 0 120px 120px 120px;
+}
+
+.think-more-box{
+    padding: 80px 40px;
+     background-color: #F7F6F2; 
+    text-align: center;
+}
+
+.think-more-box  p{
+    
+    
+    
+    color: rgba(98, 115, 130, 1);
+}
+
+.btn-think{
+    background-color: #30B868;
+    width: 194px;
+    height: 52px;
+    padding: 12px 16px;
+    border-radius: 4px;
+    border: 0px;
+    color: white;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 10px;
+    -webkit-box-shadow: 0px 5px 18px -1px #8B8B8B; 
+    box-shadow: 0px 5px 18px -1px #8B8B8B;
+}
