@@ -296,3 +296,57 @@ h2{
     -webkit-box-shadow: 0px 5px 18px -1px #8B8B8B; 
     box-shadow: 0px 5px 18px -1px #8B8B8B;
 }
+
+
+.footer-container{
+    padding: 120px 120px 30px 120px;
+    background-color: #001931;
+    
+}
+
+.footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.social{
+    width: 220px;
+    
+}
+
+.social p{
+    color: white;
+
+
+    font-style: Medium;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    margin:0 0 16px 0 ;
+
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+
+}
+.social-icons img{
+    width:20px;
+    height:20px;
+}
+
+.footer-container hr{
+    background-color: rgba(229, 231, 235, 1);
+    opacity: 0.2;
+    margin-top: 80px;
+}
+
+.copyright{
+    color:white;
+    font-size: 16;
+    margin: 20px 0;
+    text-align: center;
+
+}
